@@ -10,6 +10,56 @@
     }
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+main {
+    padding: 20px;
+    flex: 1;
+}
+
 .black-white {
     animation: color-change 3s infinite;
+}
+
+.header1 {
+    color: white;
+    background-color: rgb(23, 26, 33);
+    font-family: Tahoma, Arial, sans-serif;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 7px 0px;
+    padding: 13px 8px;
+}
+
+.footer1 {
+    color: white;
+    background-color: rgb(23, 26, 33);
+    font-family: Tahoma, Arial, sans-serif;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 7px 0px;
+    margin-top: auto;
+    padding: 13px 8px;
+}
+
+.avatar {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.qa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.button {
+    color: white;
+    background-color: #5c7e10;
+    margin: 50px;
+    text-decoration: none;
 }
