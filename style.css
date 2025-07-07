@@ -1,0 +1,15 @@
+@keyframes color-change {
+    0% {
+        color: black;
+    }
+    50% {
+        color: white;
+    }
+    100% {
+        color: black;
+    }
+}
+
+.black-white {
+    animation: color-change 3s infinite;
+}
