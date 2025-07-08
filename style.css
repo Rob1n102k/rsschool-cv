@@ -10,10 +10,6 @@
     }
 }
 
-<<<<<<< HEAD
-.black-white {
-    animation: color-change 3s infinite;
-=======
 body {
     display: flex;
     flex-direction: column;
@@ -66,5 +62,4 @@ main {
     background-color: #5c7e10;
     margin: 50px;
     text-decoration: none;
->>>>>>> Add CV files to gh-pages
 }
